@@ -36,7 +36,7 @@ const New = (inputs) => {
     .catch(error => {
       setNotification(`The item could not be added due to an error: ${error.message}`);
     });
-  }, []);
+  }, [globalStore, inputs, setNotification]);
 
   return <Redirect to="../cart"/>;
 }
