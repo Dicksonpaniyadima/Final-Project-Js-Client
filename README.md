@@ -1,6 +1,40 @@
-# Getting Started with Create React App
+# Final-Project-Js-Api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Group Members
+ Sourav Patteri - 200428729  <br/>
+ Dickson Paniyadima - 200428727
+
+### Tasks done
+
+ Products create and read functionality - Sourav <br/>
+ Products Edit and delete - Dickson <br/>
+ Products Api - Dickson <br/>
+ Cart Api - Sourav <br/>
+ Cart create, read, delete - Sourav <br/>
+ Navigation, page Views, readme - Dickson <br/>
+ 
+### Instructions
+The cart CRUD is functional but we tried populating the cart with data from the product but that part does not work.
+
+## Includes:
+- Client
+  - User CRUD components
+  - Authentication components
+  - Shared navigation component
+    - Helper for using React Router DOM Link component with React Bootstrap component
+  - Global provider for across application variable store
+  - Notification provider for across application message system
+  - User provider for across application user access
+  - All required node packages
+    - axios
+    - bootstrap
+    - react
+    - react-bootstrap
+    - react-dom
+    - react-router-dom
+    - react-scripts
+    - styled-components
+
 
 ## Available Scripts
 
